@@ -58,14 +58,14 @@ function draw() {
         box.shapeColor = "red";
         box.velocityX = 0;
         box.velocityY = 0;
-        music.stop();
+        music.play();
 
     }
 
 
     if(surface4.isTouching(box) && box.bounceOff(surface4)){
         box.shapeColor =  "green";
-        music.stop();
+        music.play();
     }
     drawSprites();
 }
