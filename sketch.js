@@ -64,7 +64,7 @@ function draw() {
 
 
     if(surface4.isTouching(box) && box.bounceOff(surface4)){
-        box.shapeColor =  "green";
+        box.shapeColor = "green";
         music.play();
     }
     drawSprites();
